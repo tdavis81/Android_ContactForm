@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">contactForm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="stringFirstName">First Name</string>
+    <string name="stringLastName">Last Name</string>
+	<string name="stringMiddleName">Middle Initital</string>
+	<string name="stringAddressMain">Address Main</string>
+	<string name="stringAddressOptional">Address Optional</string>
+	<string name="stringCity">City</string>
+	<string name="stringState">State</string>
+	<string name="stringZip">Zip</string>
+	<string name="buttonSubmit">Submit</string>
+	<string name="buttonClose">Close</string>
+</resources>

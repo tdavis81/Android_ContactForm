@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.contactform.MainActivity"
+    tools:ignore="MergeRootFrame" >
+	
+    <LinearLayout 
+        
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp">
+    
+        <EditText
+         android:id="@+id/etFirstName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:hint="@string/stringFirstName" 
+         android:layout_weight="1"
+         android:textSize="14sp"/>
+        
+        <EditText
+        android:id="@+id/etMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/stringMiddleName"
+        android:layout_weight="1"
+        android:textSize="14sp"/>
+        
+        <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/stringLastName"
+        android:layout_weight="1"
+        android:textSize="14sp"/>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp">
+        
+        <EditText
+         android:id="@+id/etAddressMain"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:hint="@string/stringAddressMain" 
+         android:layout_weight="1"
+         android:textSize="14sp"/>
+        
+        <EditText
+        android:id="@+id/etAddressOptional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/stringAddressOptional"
+        android:layout_weight="1"
+        android:textSize="14sp"/>
+        
+  
+    </LinearLayout>
+    
+     <LinearLayout 
+        
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp">
+        
+        <EditText
+         android:id="@+id/etCity"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:hint="@string/stringCity" 
+         android:layout_weight="1"
+         android:textSize="14sp"/>
+        
+        <EditText
+        android:id="@+id/etState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/stringState"
+        android:layout_weight="1"
+        android:textSize="14sp"/>
+        
+        <EditText
+        android:id="@+id/etZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/stringZip"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:maxLength="6"/>
+        
+  
+    </LinearLayout>
+
+     <Button
+         android:id="@+id/buttonSubmit"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/buttonSubmit" 
+         android:onClick="printInformation"/>
+     
+     <Button
+         android:id="@+id/buttonClose"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/buttonClose" />
+	
+	<LinearLayout
+     	android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="75dp"
+    	android:gravity="center">
+    	
+      <TextView
+	      android:id="@+id/tvResults"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="" 
+	      android:gravity="center"/>
+      
+	</LinearLayout>
+     
+
+</LinearLayout>
+
+
+
